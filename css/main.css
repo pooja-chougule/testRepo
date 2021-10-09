@@ -1,0 +1,138 @@
+.main {
+  background-color: white;
+  position:relative;
+}
+
+.header_main {
+  width: 100%;
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  border-width: thin;
+  height: 40px;
+  color: white;
+}
+
+.tabContainer {
+  background-color: yellow;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.chat_container {
+  background-color: white;
+}
+
+.search_container {
+  background-color: #bbbbbb;
+}
+
+.messages_container {
+  background-color: yellow;
+}
+
+.settings_container {
+  background-color: blue;
+}
+
+.earn_container {
+  background-color: orange;
+}
+
+.logout_container {
+  background-color: green;
+}
+
+.footer_main {
+  left: 0;
+  background: rgba(252, 234, 187, 1);
+  background: -moz-linear-gradient(top, rgba(252, 234, 187, 1) 0%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252, 234, 187, 1)), color-stop(51%, rgba(248, 181, 0, 1)), color-stop(100%, rgba(251, 223, 147, 1)));
+  background: -webkit-linear-gradient(top, rgba(252, 234, 187, 1) 0%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+  background: -o-linear-gradient(top, rgba(252, 234, 187, 1) 0%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(252, 234, 187, 1) 0%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+  background: linear-gradient(to bottom, rgba(252, 234, 187, 1) 0%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+/*   position: fixed; */
+  position: absolute;
+}
+
+/*.tab {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: pink;
+    border: 2px solid #dedede;
+
+}
+*/
+
+.loadingScreen {
+  height: 100%;
+  /* width: 100%;*/
+  top: 0;
+  position: absolute;
+  /*background-image:url(data:image/png;base64,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)
+*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+}
+
+.waitingText {
+  color: black;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  font-size: 40px;
+  font-weight: bold
+}
+
+.tabInnerText {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mainMobileChat {
+  height: 100%;
+  width: 100%;
+}
+
+.mainMobileChatHeader {
+  height: 100px;
+  width: 100%;
+  background-color: pink;
+  z-index: 1;
+}
+
+.mainMobileChatUserslist {
+  width: 100%;
+  background-color: yellow;
+}
+
+.mainMobileChatFooter {
+  width: 100%;
+  height: 55px;
+  background-color: red;
+}

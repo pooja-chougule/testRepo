@@ -1,0 +1,174 @@
+.roomsMainDiv {
+  background-color: white;
+}
+
+.roomContainer {
+  overflow: auto;
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.elementHeight {
+  height: 100%;
+}
+
+.elementWidth {
+  width: 100%;
+}
+
+.roomBarHeight {
+  height: 20px;
+}
+
+#dvRooms_container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+#dvRooms_container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.roomsMainDivWidth {
+  /*     width: 245px; */
+  width: 90%;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.roomHeading {
+  font-size: 10pt;
+}
+
+.titleFont {
+  font-weight: bold;
+  color: #696969;
+}
+
+.room {
+  margin-bottom: 0px;
+  padding: 1px;
+}
+
+.roomExpandArrow {
+  text-align: center;
+  vertical-align: middle;
+  width: 1px;
+}
+
+.roomTitle {
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  font-size: 10pt;
+  vertical-align: middle;
+}
+
+.roomUserCount {
+  font-size: 9pt;
+  vertical-align: middle;
+  /* width: 43px;*/
+  padding-right: 4px;
+  text-align: right;
+}
+
+.roomDescTable {
+  border-color: #808080;
+  border-style: solid;
+  border-width: thin;
+  border: none;
+}
+
+.roomDesc {
+  font-size: 8pt;
+  vertical-align: middle;
+}
+
+.room_desc_tab {
+  width: 155px;
+}
+
+.descArrowSpan {
+  width: 14px;
+}
+
+.headingFont {
+  font-weight: bold;
+  color: #808080;
+}
+
+.userStatusHeader {
+  font-size: 8pt;
+  text-align: center;
+  background-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+.userStatusHeaderName {
+  width: 155px;
+  text-align: left;
+  padding-left: 3px;
+}
+
+.userStatusHeaderTime {
+  background-color: #ADFF2F;
+}
+
+.roomUserName {
+  font-size: 9pt;
+  height: 16px;
+}
+
+.roomUserOutCell {
+  width: 30px;
+}
+
+.roomUserImgCell {
+  width: 16px;
+  padding-left: 4px;
+}
+
+.roomUserImgCellHeight {
+  height: 16px;
+}
+
+.roomUserTimeInCell {
+  width: 50px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.roomDescStyle {
+  padding-top: 5px;
+}
+
+.roomUserNameCell {
+  width: 139px;
+}
+
+.roomheader {
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.titlePadding {
+  padding-left: 4px;
+  vertical-align: middle;
+}
+
+.userNameMargin {
+  margin-left: 5px;
+}
+
+.titleBackground {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #cccccc 87%, #bcbcbc 92%, #a0a0a0 96%, #e5e5e5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #cccccc 87%, #bcbcbc 92%, #a0a0a0 96%, #e5e5e5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #cccccc 87%, #bcbcbc 92%, #a0a0a0 96%, #e5e5e5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+  /* IE6-9 */
+}

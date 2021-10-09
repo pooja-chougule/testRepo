@@ -1,0 +1,107 @@
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab {
+  /*   padding-top: 15px; */
+  font-family: arial;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mobileTabWindow {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: orange;
+  left: 0;
+/*   top: 0; */
+  font-family: arial;
+  overflow: auto;
+}
+
+.chatTab {
+  background-color: grey;
+  height: 200px;
+}
+
+/* .usersList {
+  background-color: white;
+  height: 413px;
+} */
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.roomList {
+  background-color: white;
+}
+
+.settingTab {
+  background-color: #00bcd4;
+}
+
+.earnMoneyTab {
+  background-color: green;
+}
+
+.mobileMainDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*   background-color: grey; */
+  height: 568px;
+  width: 320px;
+  background-color: yellow
+}
+
+.chatHeader {
+  height: 40px;
+  background-color: #eeeeee;
+  padding-top: 8px;
+  padding-left: 20px;
+  /*   background-color:blue; */
+}
+
+.usersList {
+  background-color: yellow;
+  position: relative;
+}
+
+.tabIconContiner {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.tabIconImg {
+  width: 20px;
+  height: 20px;
+}
+
+.navigationBar {
+  height: 55px;
+  background-color: #428bca;
+  bottom:0;
+  position:absolute;
+  /*   background-color:orange; */
+}
+
+.navigationWindow {
+  position: absolute;
+  background-color: pink;
+}
+
+.Footer_Tab {
+  float: left;
+  width: 14%;
+  height: 100%;
+  text-align: center;
+}

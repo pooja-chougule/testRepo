@@ -1,0 +1,22 @@
+
+.dockUsersDetailTab {
+    width: 40px;
+}
+.dockRemoveUserTab {
+    width: 20px;
+}
+.dockUserHolder {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 143px;
+}
+.dockContainer {
+    height: 175px;
+    border: 1px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.dockHoloder {
+    height: 100%
+}

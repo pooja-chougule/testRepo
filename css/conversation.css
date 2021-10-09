@@ -1,0 +1,53 @@
+.conv_user_info {
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #c1c5cc;
+  padding: 5px;
+}
+
+.time_border {
+  height: 100%;
+  border-bottom: 1px solid #c1c5cc;
+}
+
+.conv_list_time {
+  font-size: 8pt;
+  font-weight: small;
+}
+
+.conv_list_item_username {
+  font-size: 11pt;
+  font-weight: bold;
+  font-family: Arial;
+  '
+ color: white;
+}
+
+.userMsgBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cusror_hand {
+  cursor: pointer;
+}
+
+.conversation_list_item {
+  height: 100%;
+  width: 382px;
+  overflow: auto;
+}
+
+.conv_list_item_message {
+  font-size: 8pt;
+  font-weight: small;
+  font-family: Arial;
+  '
+ color: white;
+}
+
+.img_conversation_list {
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+}

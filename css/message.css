@@ -1,0 +1,214 @@
+
+.conversationList {
+  width: 350px;
+  float: left;
+}
+
+.conversations {
+  float: left;
+  display: inline-block;
+  position: relative
+}
+
+.conversationBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+.smoothScrolling{
+  scroll-behavior: smooth;
+}
+.conversationUsersList {
+  overflow: auto;
+  background-color: white;
+  
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.conversationListSearch {
+  background-color: #fbfbfb;
+  height: 50px;
+}
+
+.conversationListItem {
+  height: 72px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.conversationListItem:hover {
+  background-color: #e9ebeb
+}
+
+.conversastionList_unselectedUser {
+  background-color: white;
+}
+
+.conversastionList_selectedUser {
+  background-color: #f4f5f5;
+}
+
+.convoListUser {
+  flex-direction: row;
+  height: 72px;
+  align-items: center;
+  padding-left: 10px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.convListUserImgEffect {
+  display: block;
+  border: 2px solid #fff;
+  box-shadow: 0px 6px 5px #ccc
+}
+
+
+
+.convoListUser_msgBox {
+  flex-grow: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+  /* border-top: 1px solid #f2f2f2;*/
+  padding-left: 10px
+}
+
+.convoListUser_msg {
+  align-items: center;
+  line-height: normal;
+  display: flex;
+  text-align: left
+}
+
+.convoListUser_nameBox {
+  display: flex;
+  flex-grow: 1;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  overflow: hidden;
+}
+
+.convo_list_userName {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.convoListUser_timeBox {
+  margin-top: 4px;
+  margin-left: 6px;
+  color: #b5b5b5;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.convo_list_msgTime {
+  text-transform: capitalize;
+}
+
+.convoListItem_msgs {
+  margin-top: 2px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  font-size: 13px;
+  line-height: 19px;
+  min-height: 20px;
+}
+
+.convoListItem_msgBox {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.convoListItem_msgCountBox {
+  margin-left: 6px;
+  color: #333;
+  flex: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px
+}
+
+.convoListItem_msgCount {
+  background-color: #09d261;
+  border-radius: 12px;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  height: 19px;
+  line-height: 20px;
+  min-width: 9px;
+  vertical-align: top;
+}
+
+.conversationList_header {
+  background-color: #eeeeee;
+  padding: 10px 16px;
+  height: 59px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  justify-content: flex-end;
+}
+
+.conversation_flexStyle {
+  flex-grow: 1
+}
+
+.conversationList_headerImgBox {
+  background-color: #dfe5e7;
+}
+
+.conversationListSearchBox {
+  margin-left: 15px;
+  /*width:380px;*/
+  width: 90%;
+}
+
+.flexDisplay {
+  display: flex;
+}
+
+.conversationList_header_content {
+  align-items: center;
+}
+
+.conversationList_header_contentBox {
+  margin-left: 10px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.conversationList_header_contentImg {
+  height: 24px;
+  width: 24px;
+}
+
+#dvConversationListUsers::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+#dvConversationListUsers::-webkit-scrollbar {
+  width: 6px;
+}

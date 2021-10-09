@@ -1,0 +1,6 @@
+projectKey=my:pooja
+serverUrl=http://10.0.0.240:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://10.0.0.240:9000/dashboard/index/my:pooja
+ceTaskId=AWMFlnZEU31LvFTfb-_W
+ceTaskUrl=http://10.0.0.240:9000/api/ce/task?id=AWMFlnZEU31LvFTfb-_W

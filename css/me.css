@@ -1,0 +1,13 @@
+.meAreaMediaTab {
+    width: 32.5px;
+}
+.mediaTab {
+    height: 20px;
+    display: block;
+}
+.meAreaBarTab {
+    width: 61px;
+}
+.borderTopOfTab {
+    border-top: thin solid #808080;
+}

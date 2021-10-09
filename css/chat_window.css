@@ -1,0 +1,134 @@
+.chatHistory_messages {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.chatHistory_msgBox {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.chatRoomName {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #696969;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.chatRoomTime {
+  font-size: 9pt;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 100%;
+  color: #808080;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.chatheaderBorder {
+  border-left: 1px solid #cdd0d4;
+}
+
+.messageStyleArrow {
+  width: 14px;
+  color: #00BFFF;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.messagStyle {
+  width: 48px;
+  height: 100%;
+  color: #00BFFF;
+  font-size: 10pt;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-color: #808080;
+  border-style: solid;
+  border-width: thin;
+}
+
+.messageBoxUserName {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #696969;
+  padding-left: 4px;
+}
+
+.typingBox {
+  height: 100%;
+  width: 100%;
+  /*     margin-top: 4px;
+    margin-left: 4px; */
+  padding: 0px;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 5%, rgba(246, 246, 246, 1) 7%, rgba(237, 237, 237, 1) 50%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(5%, rgba(249, 249, 249, 1)), color-stop(7%, rgba(246, 246, 246, 1)), color-stop(50%, rgba(237, 237, 237, 1)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 5%, rgba(246, 246, 246, 1) 7%, rgba(237, 237, 237, 1) 50%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 5%, rgba(246, 246, 246, 1) 7%, rgba(237, 237, 237, 1) 50%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 5%, rgba(246, 246, 246, 1) 7%, rgba(237, 237, 237, 1) 50%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 5%, rgba(246, 246, 246, 1) 7%, rgba(237, 237, 237, 1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+}
+
+.messageTyped {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #696969;
+}
+
+.sendMsgButton {
+  background: rgba(147, 206, 222, 1);
+  background: -moz-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(131, 197, 215, 1) 22%, rgba(117, 189, 209, 1) 41%, rgba(107, 183, 205, 1) 55%, rgba(73, 165, 191, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147, 206, 222, 1)), color-stop(22%, rgba(131, 197, 215, 1)), color-stop(41%, rgba(117, 189, 209, 1)), color-stop(55%, rgba(107, 183, 205, 1)), color-stop(100%, rgba(73, 165, 191, 1)));
+  background: -webkit-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(131, 197, 215, 1) 22%, rgba(117, 189, 209, 1) 41%, rgba(107, 183, 205, 1) 55%, rgba(73, 165, 191, 1) 100%);
+  background: -o-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(131, 197, 215, 1) 22%, rgba(117, 189, 209, 1) 41%, rgba(107, 183, 205, 1) 55%, rgba(73, 165, 191, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(131, 197, 215, 1) 22%, rgba(117, 189, 209, 1) 41%, rgba(107, 183, 205, 1) 55%, rgba(73, 165, 191, 1) 100%);
+  background: linear-gradient(to right, rgba(147, 206, 222, 1) 0%, rgba(131, 197, 215, 1) 22%, rgba(117, 189, 209, 1) 41%, rgba(107, 183, 205, 1) 55%, rgba(73, 165, 191, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1);
+  width: 84px;
+  color: white;
+  font-size: 12pt;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+}
+
+.defaultUserChat {
+  color: green;
+  font-size: 9pt;
+  font-family: 'Lemonada';
+}
+
+.chatRed {
+  color: red;
+  font-style: italic
+}
+
+.typingBoxWidth {
+  width: 100%;
+  /*     height: 20px; */
+  height: 100%;
+  padding-left: 10px;
+}
+
+.tableBorder {
+  border-collapse: collapse;
+}
+
+.borderBottomOfTab {
+  border-bottom: thin solid #808080;
+}
+
+.chatMsgBoxborder {
+  background-color: #d2cccc;
+  border-radius: 18px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: black;
+}

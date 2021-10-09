@@ -1,0 +1,73 @@
+<div class="signupBox signupBoxDimensions">
+  <form id="frmSignup" method="post" onsubmit="return postSignupValues('signup.html=>#frmSignup.onsubmit');">
+    <table border="0" cellpadding="1" cellspacing="5" width="100%">
+      <tr class="border_bottom">
+        <td class="formHeading" colspan="2">
+          <div id="dvFormHeaderBox" class="headerBox">
+            Sign Up
+          </div>
+          <div id="dvLoginBox" class="headerBox loginBox loginLinkContainer">
+            <a href="javascript:toggle_containers(1,'signup.html=>#loginRef');" id="loginRef" class="loginLink">
+                                Login
+              </a>
+
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input class="input_text textBox" id="txtFirstName" name="firstName" placeholder="First Name" type="text" pattern="[A-Za-z]{1,32}" title="Letters only " required />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input_text textBox" id="txtLastName" name="lastName" placeholder="Last Name" type="text" pattern="[A-Za-z]{1,32}" title="Letters only " required />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input_text textBox" id="txtEmail" name="email" placeholder="Email" type="email" required/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input_text textBox" id="txtPassWord" name="password" placeholder="Password" type="password" required pattern=".{6,}" title="Six or more characters">
+          <div id="dvPasswordInfoBox" class="passwordInfoBox">
+            Minimum of 6 characters
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input_text textBox" id="txtConfirmPassword" name="confirmPassword" placeholder="Confirm Password" type="password" required onkeyup="javascript:validatePassword('signup.html=>txtConfirmPassword');" />
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="dvGenderBox" class="genderBox">
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required class="femaleGenderBox">Female
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="signupFontstyle">
+          <div class="genderBox">
+            <label>
+                            Date Of Birth:
+             </label>
+            <input type="date" name="bday"  id="dtBirthDate" class="input_text" required/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <input class="submit_button" id="btnSubmit" name="btnSubmit" type="submit" value="Sign Up" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>

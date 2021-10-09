@@ -1,0 +1,48 @@
+.currenUserProfileTab {
+    display: none;
+    height: 100%;
+    width: 100%;
+    border-top: thin solid #808080;
+}
+.meAreaPlusTab {
+    width: 27px;
+}
+.userOptionsTab {
+    height: 100%;
+    width: 100%;
+}
+.selectedUserBackground {
+    background-color: #ececec;
+}
+.unselectedUserBackground {
+    background-color: #FFFFFF;
+}
+.chat_userPic {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    height: 97px;
+    width: 130px;
+    display: block;
+}
+.userProfileName {
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    font-size: 13px;
+    font-weight: bold;
+    color: #696969;
+
+}
+.userProfileDetails {
+    height: 97px;
+    max-width: 122px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.userProfileDetailTab {
+    height: 15px;
+}
+.userProfileMedia {
+    width: 32.5px;
+}
+.profileMargin {
+    margin-top: 2px;
+}

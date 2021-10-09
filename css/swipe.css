@@ -1,0 +1,183 @@
+
+.swipe_app {
+    width: 350px;
+    height: 516px;
+    background-color: #FFF;
+    /*padding-top: 12px;*/
+   margin-left: auto;
+    margin-right: auto; 
+    
+    vertical-align: middle;
+
+}
+.swipe_img_content {
+    padding: 10px;
+    padding-top: 0px;
+
+}
+.swipe_header {
+    background-color: #FFF;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #e2e2e2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.swipe_header img {
+    width: 70px;
+}
+div.photo {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    height: 445px;
+    border: 1px solid #a6a9aa;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 7px 0px #cfcfcf;
+}
+span.meta {
+    display: block;
+    height: 48px;
+    background-color: #FFF;
+    margin-top: 399px;
+    border-radius: 0px 0px 8px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 12px;
+}
+span.meta span {
+    float: right;
+    color: #cfcfcf;
+}
+.users {
+    display: block;
+    width: 20px;
+    background: url("../img/search/users.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: 5px;
+}
+.moments {
+    display: block;
+    width: 14px;
+    background: url("../img/search/moments.png");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position: 5px;
+}
+.swipe_chaticon {
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url(../img/swipe/chat.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 4px;
+    background-position: 5px;
+    float: right;
+    margin-top: 0px;
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    filter: drop-shadow(1px 1px 1px #222);
+}
+.swipe_settings {
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url(../img/swipe/settings.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 6px;
+    background-position: 5px;
+    float: left;
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    filter: drop-shadow(1px 1px 1px #222);
+    margin-top: 0px;
+}
+.swipe_footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 360px;
+    width: 100%;
+    padding-left: 75px;
+    padding-top: 85px;
+}
+.swipe_rating {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    background: #FFF;
+    border: 5px solid #f0f0f0;
+    float: left;
+    box-shadow: 1px 1px 1px 0px #e9e9e9;
+}
+.swipe_rating:nth-child(2) {
+    margin-left: 8px;
+    background: url(../img/swipe/delete.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swipe_rating:nth-child(4) {
+    margin-left: 10px;
+    background: url(../img/swipe/heart.png);
+    background-size: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swipe_star {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FFF;
+    border: 5px solid #f0f0f0;
+    float: left;
+    box-shadow: 1px 1px 1px 0px #e9e9e9;
+    margin-top: 5px;
+    margin-left: 12px;
+    background: url(../img/swipe/star.png);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swipe_refresh {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FFF;
+    border: 5px solid #f0f0f0;
+    float: left;
+    box-shadow: 1px 1px 1px 0px #e9e9e9;
+    margin-top: 5px;
+    margin-left: -50px;
+    background: url(../img/swipe/refresh.png);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swipe_bolt_boost {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FFF;
+    border: 5px solid #f0f0f0;
+    float: left;
+    box-shadow: 1px 1px 1px 0px #e9e9e9;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(../img/swipe/bolt.png);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p {
+    padding: 0;
+    margin: 0;
+    float: left;
+}

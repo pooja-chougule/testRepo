@@ -1,0 +1,59 @@
+<div id="dvConversation_header" class="conversation_header fullWidth conversation_header_height">
+  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+    <tr>
+      <td align="center" width="40" id="backArrowCell" onclick="javascript: showTabWindow('dvConversationListUsers','Message', 'conversation_message.html=>#backArrowCell');">
+        <img src="" class="cursorStyle" id="iBackArrow_icon">
+      </td>
+      <td align="center" valign="middle" width="50">
+        <img class="convoListUserImg convListUserImgEffect" draggable="false" id="imgUser_image" src="" />
+      </td>
+      <td>
+        <div id="dvUser_info" class="cursorStyle userInfo">
+
+          <div class="conversation_username" id="dvUser_nameBox">
+            <span id="dvUser_name"> </span>
+          </div>
+          <div class="conversation_lastseen" id="dvUser_lastseenBox">
+            <span id="dvUser_lastseen"> </span>
+          </div>
+
+        </div>
+      </td>
+      <td align="center" width="35">
+        <img src="" class="cursorStyle" id="iSearch_icon">
+
+      </td>
+      <td align="center" width="35">
+        <img src="" class="cursorStyle conversationList_header_contentImg" id="iAttachment_icon">
+
+      </td>
+      <td align="center" width="35">
+        <img src="" class="cursorStyle conversationList_header_contentImg" id="iMenu_bar_icon" />
+
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="message_history smoothScrolling" id="dvMessage_content">
+
+</div>
+<div class="conversation_footer" id="dvConversation_footer">
+  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" layout="auto">
+    <tr>
+      <td align="center" width="50">
+        <img src="" class="cursorStyle conversationList_header_contentImg" id="iSmiley_icon">
+
+      </td>
+      <td>
+        <div class="inputBox fullWidth" id="dvInner_footer">
+          <input id="txtConv_message" class="textarea fullWidth" placeholder="#Type a message#" type="text" />
+        </div>
+      </td>
+
+      <td align="center" width="50">
+        <img src="" class="cursorStyle conversationList_header_contentImg" id="imgMicrophone">
+        </i>
+      </td>
+    </tr>
+  </table>
+</div>

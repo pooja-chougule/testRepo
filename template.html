@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control" />
+  <meta content="no-cache" http-equiv="Pragma" />
+  <meta content="0" http-equiv="Expires" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta charset="utf-8" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="user-scalable=no, width=device-width,height=device-height, initial-scale=1, maximum-scale=1" name="viewport" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <link href="img/favicon.ico" rel="icon"> </link>
+  <script src="js/tp/head.min.js" type="text/javascript">
+  </script>
+ 
+  <script src="js/start_loading_files.js?" + Math.random().toString().slice(2,11); type="text/javascript">
+  </script>
+<!--   <script src="http://vorlon.astute.ws:1337/vorlon.js"></script> -->
+
+
+  <style>
+    html,body {
+/*       background-color: #c33; */
+      margin: 0 !important;
+      height: 100%;
+      font-family: Arial;
+    }
+
+    .waitingScreen {
+      height:100%; 
+      width:100%;
+      background-color: #c33;
+    }
+
+    #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+      animation: heartbeat 1s infinite;
+      margin: 0 auto;
+      text-shadow: 2px 5px 5px grey;
+    }
+
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: #fff;
+      -moz-border-radius: 50px 50px 0 0;
+      border-radius: 50px 50px 0 0;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transform-origin: 0 100%;
+      -moz-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      -o-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+    }
+
+    #heart:after {
+      left: 0;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transform-origin: 100% 100%;
+      -moz-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+      -o-transform-origin: 100% 100%;
+      transform-origin: 100% 100%;
+    }
+
+    @keyframes heartbeat {
+      0% {
+        transform: scale( .75);
+      }
+      20% {
+        transform: scale( 1);
+      }
+      40% {
+        transform: scale( .75);
+      }
+      60% {
+        transform: scale( 1);
+      }
+      80% {
+        transform: scale( .75);
+      }
+      100% {
+        transform: scale( .75);
+      }
+    }
+  </style>
+  <script>
+    platform = "web";
+    let startTime, endTime;
+
+    let start = function() {
+      startTime = new Date();
+    };
+
+    let end = function() {
+      endTime = new Date();
+      let timeDiff = endTime - startTime; //in ms
+      // strip the ms
+      // timeDiff /= 1000;
+      // get seconds
+      let seconds = Math.round(timeDiff);
+      console.log(seconds + " miliseconds");
+    }
+    start();
+
+    platform = "desktop";
+
+    let arrHead = [];
+    let arrScripts = [];
+    let arrLinks = [];
+    let arrTPScripts = [];
+  </script>
+  <title>
+    Tubely
+  </title>
+</head>
+
+
+<body onload="start_loadFiles('template.html=>body')">
+  <div id="dvWait" class="waitingScreen">
+    <table height="100%" width="100%">
+      <tr>
+        <td valign="middle" align="center">
+          <div id="heart"></div>
+          <span id="spPleaseWait" data-i18n="PLEASE_WAIT_35" style="font-family:Arial;font-size:40px;color:white;font-weight:bold;text-shadow:2px 5px 5px grey;">Please wait</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
